@@ -3,17 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
-.container{
+/* .container{
     width: 70vw;
-    background-color: #F3D5C0;
+    background-color: #F3D5C0; 
     margin: 0 auto;
     height: 300vh;
-}
+} */
 body{
-    background-color: #889EAF;
+    background-image: url(image/обоитг.PNG);
 }
 .social{
-    width: 64px;
+    width: 256px;
 }
 .header{
     text-align: center;
@@ -32,9 +32,8 @@ body{
 .main p:nth-child(2){
     text-align: center;
     font-size: 1.4em;
-    border: 3px solid #7027A0 ;
-    width: 150px;
-    display: block;
+    width: 300px;
+    display: flex;
     margin: 0 auto;
     margin-bottom: 25px;
 }
@@ -47,8 +46,11 @@ body{
     width: 1220px;
 }
 .footer{
+    /* display: block;
+    flex-direction: column;
+    justify-content: space-evenly; */
+    margin-top: 25px;    
     display: flex;
-    justify-content: space-evenly;
-    margin-top: 25px;
-
+    flex-direction: column;
+    align-items: start;
 }
